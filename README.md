@@ -60,6 +60,52 @@ Mode 3: Autonomous Mode
 ![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/4f3efcbb-e6b2-4392-8def-7a0c5cb85eeb)
 
 
+LIDARS and the CMU PIXY Camera
+
+The platform has four LIDAR sensors and one CMY PIXY Camera for Visual Recognition
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/6f479b8b-03a4-46ec-9c55-92a704540526)
+
+Twp of the LIDAR Sensors are attached on each front wheel and one on the back wheel;
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/702ff8fd-c07d-44d7-92da-44afd81b931b)
+
+And another LIDAR sensor is located on the RSM Mast head side by side with a stand-alone wifi camera ;
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/32e32e55-f442-497a-bd93-60bd3ce435c4)
+
+A CMU PIXY Camera is attached on the front of the rover for realtime "front-of-rover" image analysis;
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/8d61770e-5f0d-4a02-8d5b-9912a3dd4130)
+
+Arduino - PIXY CAMERA Processing
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/8d23974c-3e57-4073-850f-e0413a448563)
+
+LIDAR and CMU Pixy Camera I2C BUS Addressing;
+
+Anything attached on the I2C bus are addressable. The included code manages the pre-programming stuff of setting up the I2C address on the multiple LIDAR sensors so there
+will be no bus conflicts;
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/fbca01ad-cfc3-45f9-81b4-4de3b7c4f917)
+
+RC Electronics
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/be19a366-b1a7-445b-8527-a3817f2438f4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
