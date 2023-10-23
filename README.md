@@ -127,6 +127,13 @@ wheels were used as motors for the servo arms.
 ![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/4a9c4fce-a9e6-4535-bd4f-a6fa789cf5eb)
 
 
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/130083e7-f74d-42db-93a0-de14f4cd3aeb)
+
+3D Model of the Steering Servo mount to accomodate the SG90 Electronics plus a Potentiometer 3d printed  "Feed Back Pin" needed for the servo operation.
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/ea3e3c78-a3fd-4678-a730-b0d8f12466a1)
+
+
 
 
 
