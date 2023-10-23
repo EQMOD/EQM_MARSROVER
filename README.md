@@ -133,6 +133,54 @@ wheels were used as motors for the servo arms.
 
 ![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/ea3e3c78-a3fd-4678-a730-b0d8f12466a1)
 
+Potentiometer Feed Back Pin
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/00af4091-d4cc-4689-963a-aa39be0021de)
+
+
+The Arduino Slave Codes contain routines for an ACKERMAN STEERING and Turn-ON-Spot mode. This is user selectable
+on the FLYSKY TX switch knobs or via a command from the Master Arduino BLE Sense side.
+
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/f9499b4f-849d-4779-b474-3a8b41715fa4)
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/1aadc978-1c46-493b-8ba3-278ca1b731fe)
+
+
+RSM Mast Servo 
+
+The platform also includes a RSM Mast Servo for LIDAR and Wifi Camera Panning. The servo is located at the based 
+of the RSM Mast Assembly
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/f6a8d47b-11e7-4c0d-ae80-aa4f8c2aa1ac)
+
+
+
+CORING DRILL MOTOR
+
+The Rover Platform also has a Coring Drill Motor which is controllable from the Arduino Master side.
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/5dd0161a-a3f7-4ffa-b78f-cebfd8e45b74)
+
+
+Perseverance Rover Platform Mount
+
+For safekeeping a 3D Mode of the platform mount is included;
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/fe6b4e7b-3b81-4904-87b5-c4b55c7b6bc1)
+
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/63c87e62-6ae6-4682-a861-e0218b946a79)
+
+
+
+
+
+
+
+
+
+
 
 
 
