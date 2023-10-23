@@ -89,9 +89,54 @@ will be no bus conflicts;
 
 ![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/fbca01ad-cfc3-45f9-81b4-4de3b7c4f917)
 
+
+
 RC Electronics
 
+The platform utlizes the FLYSKY TX-RX modules for receiving user command data from a FLYSKY FS-GT5 Transmitter and is received by the Ardruino Nano Slave via Flysky's I-BUS protocol 
+which is directly fed to the Arduino NANO RX Pin.
+
+
 ![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/be19a366-b1a7-445b-8527-a3817f2438f4)
+
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/70fd4236-a379-401d-a45a-9f005ba30900)
+
+
+Rover Wheels Geared Motors
+
+Each wheel is driven independently by geared motors attaced on the bogie arm assembly.
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/cfda113e-3f94-4ccc-8b49-5045ec8c9d28)
+
+The motor drivers are from the SG90 Servo boards acting as Electronic Speed Controllers with the feedback potentiometers adjusted for home position (where the motors stop 
+rotating at TX / Steering wheel mid stick position)
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/d2f1dbe1-41c6-468d-8b2d-bcc20d1cbefe)
+
+
+
+Steering Servos. 
+
+To reduce the space occupied by the servos, the SG90 servos where disassembled and the electronics attached to the 3d-printed bogie arm. The same Geared Motors on the 
+wheels were used as motors for the servo arms.
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/77acacf9-babd-4d45-926f-62904f1f3a32)
+
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/4a9c4fce-a9e6-4535-bd4f-a6fa789cf5eb)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
