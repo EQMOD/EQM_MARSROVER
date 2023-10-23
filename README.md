@@ -8,6 +8,11 @@ https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/M2020-Model-Ro
 
 ![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/4328c751-df54-4b1c-b8ee-8e21aec6d2a7)
 
+Rover Electronics mounted on the chassis box;
+
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/a5ada5ea-b615-42ef-a220-6cf891e21b46)
+
+
 The platform also include a mini version of the Mars Ingenuity Helicopter to demonstrate the deployment process using a SG90 Servo to drop the model under the belly of the perseverance rover;
 
 ![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/79b43e7b-d5b3-4601-8570-b12e8613e1d1)
