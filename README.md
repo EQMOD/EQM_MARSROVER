@@ -12,6 +12,10 @@ Rover Electronics mounted on the chassis box;
 
 ![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/a5ada5ea-b615-42ef-a220-6cf891e21b46)
 
+Sensor/Device List as implemented on the Arduino Codes;
+
+"A TENSORFLOW AI/ML embedded module, 6 individually addressable bidirectional motors for all 6 Wheels, 4 LIDAR Sensors: two for the front two wheels, 1 at the rear wheel, 1 on the head mast, A CMU Pixy Camera mounted in front of the Rover, A streaming camera on the Main Mast accessible using wifi via a Mobile app, Dual Micro controllers in a master slave configuration,  two  6 DOF gyro/accelerometers - one on top of the differential bar, another on one on the Nano BLE Sense microcontroller, a light/color/proximity sensor on the ble sense, a barometric/temp/pressure also on the ble sense, an audio mic also on the ble sense, a couple of servos - one for the Mast, and one for the Ingenuity copter deployment, and FOUR more servos for each corner wheel, an RC module to remotely control the bot or feed it with PWM data for subroutine triggers  from the 2.4ghz transmitter , A Bluetooth module for mobile app communication..."
+
 
 The platform also include a mini version of the Mars Ingenuity Helicopter to demonstrate the deployment process using a SG90 Servo to drop the model under the belly of the perseverance rover;
 
