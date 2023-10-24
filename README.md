@@ -37,7 +37,8 @@ The Platform uses multiple sensors ((built-in sensors within the Arduino BLE Sen
 
 Below is the connection diagram of all the motors, servos, and sensors. Motor/Servo Control is distributed on the Arduino NANO (Acting as Slave) and the rest of the sensors including those connected to the I2C Bus are being controlled by the Arduino BLE-33 NANO Sense which is acting as the Master.  The Coring Motor (Rover Drill Motor) is connected to the BLE33 Sense as well the Servo Library Pins on the Arduino NANO side are fully utilized.
 
-![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/c45d3ab0-8066-4891-a9b8-de1cc6d34da8)
+![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/ccd82e18-4e66-4d5c-bb15-5850c47467ab)
+
 
 
 ARDUINO MASTER-SLAVE CONFIGURATION
@@ -84,7 +85,9 @@ Arduino - PIXY CAMERA Processing
 
 LIDAR and CMU Pixy Camera I2C BUS Addressing;
 
-Anything attached on the I2C bus are addressable. The included code manages the pre-programming stuff of setting up the I2C address on the multiple LIDAR sensors so there will be no bus conflicts;
+Anything attached on the I2C bus are addressable. The included code manages the pre-programming stuff of setting up the I2C address on the multiple LIDAR sensors so there will be no bus conflicts. Custom I2C Addresses are invidually re-assigned on three of the four LIDAR sensors connected on the same I2C bus. The way to do this is to put 3 of the LIDARS in reset
+mode while the fourth one is assigned with a new address. Then one by one, the reset line of each is deactivated and assigned with a new address until all four will have unique i2c
+addresses.
 
 ![image](https://github.com/EQMOD/EQM_MARSROVER/assets/29789200/fbca01ad-cfc3-45f9-81b4-4de3b7c4f917)
 
